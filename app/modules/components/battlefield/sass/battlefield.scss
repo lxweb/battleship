@@ -1,0 +1,18 @@
+.battlefield{
+  width: 600px;
+  .sq{
+      box-shadow: 2px 2px 2px #888888;
+      height: 50px;
+      width: 50px;
+      float:left;
+      &.ship{
+        background-color: blue;
+      }
+      &.touched-empty, &.touched-0{
+        background-color: grey;
+      }
+      &.touched-full, &.touched-1{
+        background-color: red;
+      }
+  }
+}
